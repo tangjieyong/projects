@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="keyon.tang.dao.AdMapper">
+
+    <insert id="insertAd">
+        insert  into ad(title, img_file_name, link, weight)
+         values (#{title},#{imgFileName},#{link},#{weight})
+    </insert>
+
+    <select id="selectAdByPage"  resultType="keyon.tang.bean.AdCustom">
+           select title,img_file_name,link,weight from ad
+         <where>
+             <if test="adCustom.title !=null and !&quot;&quot;.equals(adCustom.title.trim())">
+                 and  title  like '%${adCustom.title}%'
+             </if>
+         </where>
+    </select>
+</mapper>

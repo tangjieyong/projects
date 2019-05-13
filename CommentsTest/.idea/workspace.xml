@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba85a64a-f143-4557-8334-cb9274d157d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/custom/ShopCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/custom/TestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/dao/AreaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/dao/ShopCategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/dto/ShopExcution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/enums/ShopStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/exceptions/ShopException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/service/AreaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/service/ShopCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/service/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/service/impl/AreaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/service/impl/ShopCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/service/impl/ShopServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/test/ShopServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/CodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/DESUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/EncryptPropertyPlaceholderConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/HttpServletRequestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/LogBackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/PageCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/QRCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/baidu/BaiduMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/baidu/Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/baidu/LatLonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/baidu/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/baidu/RadiusScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/baidu/ShortNetAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/CoreServiceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/MenuManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/MessageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/MyX509TrustManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/SignUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/WeiXinUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/WeiXinUserUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/WeixinUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/pojo/AccessToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/pojo/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/pojo/CommonButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/pojo/ComplexButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/pojo/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/pojo/UserAccessToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/pojo/ViewButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/req/BaseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/req/ImageMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/req/LinkMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/req/LocationMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/req/TextMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/req/VoiceMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/req/WechatInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/resp/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/resp/BaseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/resp/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/resp/MusicMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/resp/NewsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/util/weixin/message/resp/TextMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/web/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/web/shop/ShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/resources/mapper/AreaDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/resources/mapper/ShopCategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/resources/spring/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/frontend/customerbind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/frontend/mypoint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/frontend/myrecord.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/frontend/pointrecord.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/frontend/productdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/frontend/shopdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/frontend/shoplist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/awarddelivercheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/awardedit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/awardmanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/changepsw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/forgetpsw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/myshops.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/ownerbind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/ownerlogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/productbuycheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/productcategorymanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/productedit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/productmanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/shopauthedit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/shopauthmanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/shopedit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/shoplist#U526f#U672c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/shoplist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/shopmanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/shop/usershopcheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/superadmin/areamanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/superadmin/headlinemanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/superadmin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/superadmin/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/superadmin/personinfomanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/superadmin/shopcategorymanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/superadmin/shopmanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/html/superadmin/top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/frontend/index/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/frontend/productdetail/productdetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/frontend/shopdetail/shopdetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/frontend/shoplist/shoplist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/awarddelivercheck.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/awardmanage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/base/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/base/jquery.confirm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/base/jquery.validate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/model/productDirector.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/productbuycheck.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/productcategorymanage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/productmanage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/shopauthmanage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/shoplist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/shopmanage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/shop/usershopcheck.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/info_content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/jquery-ui-1.8.6.custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/jquery.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/tooltip-form-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/checkbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/flag/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/flag/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/flag/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/flag/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/flag/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/flag/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/flag/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/flag/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/flag/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/flag/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/flag/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/folder_Close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/folder_Open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/line_bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/line_center.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/line_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/minus_bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/minus_center.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/minus_noLine.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/minus_root.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/minus_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/moveArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/page.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/plus_bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/plus_center.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/plus_noLine.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/plus_root.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/plus_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/sim/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/sim/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/sim/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/sim/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/sim/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/sim/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/sim/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/sim/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/sim/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/sim/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/img/sim/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/zTreeIcons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/css/superadmin/common/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/images/right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/common/commonutil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/common/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/common/echarts.simple.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/common/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/frontend/customerbind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/frontend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/frontend/mypoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/frontend/myrecord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/frontend/pointrecord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/frontend/productdetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/frontend/shopdetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/frontend/shoplist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/awarddelivercheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/awardedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/awardmanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/base/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/base/commonutil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/base/jquery-1.11.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/base/jquery.confirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/base/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/changepsw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/forgetpsw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/myshops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/ownerbind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/ownerlogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/productbuycheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/productcategorymanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/productedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/productmanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/shopauthedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/shopauthmanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/shopedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/shoplist#U526f#U672c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/shoplist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/shopmanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/shop/usershopcheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/areamanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/js/easyloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/js/easyui-lang-zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/js/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/js/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.combobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.combogrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.combotree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.datagrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.datebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.datetimebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.droppable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.linkbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.menubutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.messager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.numberbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.numberspinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.splitbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.timespinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.treegrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.validatebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/plugins/jquery.window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/accordion_collapse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/accordion_expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/button_a_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/button_plain_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/button_span_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/calendar_nextmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/calendar_nextyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/calendar_prevmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/calendar_prevyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/combo_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/datagrid_header_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/datagrid_row_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/datagrid_row_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/datagrid_sort_asc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/datagrid_sort_desc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/datagrid_title_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/layout_button_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/layout_button_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/layout_button_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/layout_button_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/main_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/menu_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/menu_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/menu_sep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/menu_split_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/messager_error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/messager_info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/messager_question.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/messager_warning.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/pagination_first.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/pagination_last.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/pagination_load.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/pagination_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/pagination_next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/pagination_prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/panel_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/panel_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/panel_tool_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/panel_tool_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/panel_tools.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/spinner_arrow_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/spinner_arrow_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tabs_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tabs_close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tabs_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tabs_leftarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tabs_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tree_arrows.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tree_checkbox_0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tree_checkbox_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tree_checkbox_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tree_dnd_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tree_dnd_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tree_file.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tree_folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tree_folder_open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/tree_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/validatebox_pointer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/dayun/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/accordion_collapse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/accordion_expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/button_a_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/button_plain_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/button_span_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/calendar_nextmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/calendar_nextyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/calendar_prevmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/calendar_prevyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/combo_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/datagrid_header_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/datagrid_row_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/datagrid_row_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/datagrid_sort_asc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/datagrid_sort_desc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/datagrid_title_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/layout_button_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/layout_button_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/layout_button_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/layout_button_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/menu_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/menu_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/menu_sep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/menu_split_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/messager_error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/messager_info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/messager_question.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/messager_warning.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/pagination_first.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/pagination_last.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/pagination_load.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/pagination_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/pagination_next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/pagination_prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/panel_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/panel_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/panel_tool_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/panel_tool_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/panel_tools.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/spinner_arrow_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/spinner_arrow_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tabs_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tabs_close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tabs_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tabs_leftarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tabs_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tree_arrows.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tree_checkbox_0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tree_checkbox_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tree_checkbox_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tree_dnd_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tree_dnd_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tree_file.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tree_folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tree_folder_open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/tree_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/validatebox_pointer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/default/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/accordion_collapse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/accordion_expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/button_a_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/button_plain_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/button_span_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/calendar_nextmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/calendar_nextyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/calendar_prevmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/calendar_prevyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/combo_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/datagrid_header_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/datagrid_row_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/datagrid_row_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/datagrid_sort_asc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/datagrid_sort_desc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/datagrid_title_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/layout_button_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/layout_button_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/layout_button_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/layout_button_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/menu_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/menu_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/menu_sep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/menu_split_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/messager_error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/messager_info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/messager_question.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/messager_warning.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/pagination_first.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/pagination_last.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/pagination_load.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/pagination_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/pagination_next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/pagination_prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/panel_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/panel_title.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/panel_tool_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/panel_tool_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/panel_tools.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/spinner_arrow_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/spinner_arrow_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tabs_close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tabs_enabled.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tabs_leftarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tabs_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tree_arrows.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tree_checkbox_0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tree_checkbox_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tree_checkbox_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tree_dnd_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tree_dnd_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tree_file.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tree_folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tree_folder_open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/tree_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/validatebox_pointer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/gray/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/edit_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/filesave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/themes/icons/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/easyui/validate/easyui_validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/errorhandle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/jquery-ui-1.8.6.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/jquery-ztree-2.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/jquery.autocomplete.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/tooltip/Css/Tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/tooltip/Images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/tooltip/Images/accept.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/tooltip/Images/exclamation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/tooltip/Images/tooltop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/tooltip/Js/Tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/tooltip/Js/Tooltip.mini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/tooltip/Js/Tooltip.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/tooltip/Js/jquery.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/validate/cmxforms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/validate/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/validate/messages_cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/common/validate/tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/headlinemanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/personinfomanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/shopcategorymanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/resources/js/superadmin/shopmanage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comments/src/main/java/keyon/tang/controller/Adcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Comments/src/main/java/keyon/tang/controller/Adcontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/mbg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/mbg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/dao/ShopDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/dao/ShopDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/Award.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/Award.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/HeadLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/HeadLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/LocalAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/LocalAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/PersonInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/PersonInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/PhoneAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/PhoneAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/ProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/ProductCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/ProductImg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/ProductImg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/ShopAuthMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/ShopAuthMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/ShopCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/ShopCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/UserAwardMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/UserAwardMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/UserProductMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/UserProductMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/UserShopMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/UserShopMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/WechatAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/java/keyon/tang/entity/WechatAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/resources/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/resources/mapper/ShopDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/resources/mybatis/mybatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/resources/mybatis/mybatisConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/resources/properties/system.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/resources/properties/system.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/resources/spring/spring-root.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/resources/spring/spring-root.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/resources/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/resources/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/resources/spring/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/resources/spring/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../O2O/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbArea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbAward.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbHeadLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbLocalAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbPersonInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbPhoneAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbProductCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbProductImg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbShop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbShopAuthMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbShopCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbUserAwardMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbUserProductMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbUserShopMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../O2O/target/classes/keyon/tang/entity/tbWechatAuth.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/controller/content/AdController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="16" lean-forward="true" selection-end-line="26" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/system.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/logback.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\MavenManager\repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\MavenManager\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CommentsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommentsTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommentsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommentsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommentsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommentsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommentsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommentsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommentsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommentsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommentsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommentsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommentsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommentsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommentsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommentsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommentsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommentsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557670005437" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba85a64a-f143-4557-8334-cb9274d157d7" name="Default Changelist" comment="" />
+      <created>1557105831367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557105831367</updated>
+      <workItem from="1557105839882" duration="290000" />
+      <workItem from="1557106431352" duration="10837000" />
+      <workItem from="1557190325185" duration="581000" />
+      <workItem from="1557208950864" duration="122000" />
+      <workItem from="1557235949195" duration="365000" />
+      <workItem from="1557236382472" duration="67000" />
+      <workItem from="1557236517677" duration="138000" />
+      <workItem from="1557236714109" duration="148000" />
+      <workItem from="1557239534675" duration="617000" />
+      <workItem from="1557241260557" duration="361000" />
+      <workItem from="1557407309000" duration="124000" />
+      <workItem from="1557669139929" duration="789000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14439000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21715818" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32991204" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="16" />
+      <window_info anchor="bottom" id="JRebel Executor" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="RestServices" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/bean/BaseBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/service/impl/AdServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/service/AdService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/dao/AdDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/bean/Ad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/dao/interceptor/PageInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/bean/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/dao/GroupMenuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GroupMenuDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ActionDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="51" column="11" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/controller/api/ApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/dto/AdDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/constant/PageCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/imooc/controller/content/AdController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/system.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="135" column="21" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/logback.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="16" lean-forward="true" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/system.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CommentsTest:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (CommentsTest)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|CommentsTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

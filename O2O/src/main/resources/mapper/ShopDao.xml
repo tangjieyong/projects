@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="keyon.tang.dao.ShopDao">
+    <insert id="insertShop" useGeneratedKeys="true" keyProperty="shopId">
+       INSERT INTO tb_shop
+       (owner_id, area_id,shop_category_id,parent_category_id,shop_name,shop_desc,shop_addr,phone,
+        shop_img,longitude,latitude,priority,create_time,last_edit_time,advice)
+        VALUES
+       (#{ownerId},#{area.areaId},#{shopCategory.shopCategoryId},#{shopCategory.parentId},#{shopName},#{shopDesc},
+        #{shopAddr},#{phone},#{shopImg},#{longitude}, #{latitude},#{priority}, #{createTime},#{lastEditTime},#{advice})
+    </insert>
+
+    <select id="queryShopInfo" resultType="keyon.tang.entity.Shop">
+        SELECT
+        shop_name,shop_addr,phone,shop_desc
+        FROM tb_shop
+        <where>
+            shop_id=#{shopId}
+        </where>
+    </select>
+
+    <select id="queryShopById" resultType="keyon.tang.entity.Shop">
+        SELECT
+            owner_id, area_id,shop_category_id,parent_category_id,shop_name,shop_desc,shop_addr,phone,
+            shop_img,longitude,latitude,priority,create_time,last_edit_time,advice
+       FROM tb_shop
+       WHERE shop_id=#{shopID}
+    </select>
+</mapper>

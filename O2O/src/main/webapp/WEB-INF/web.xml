@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+  <display-name>Archetype Created Web Application</display-name>
+
+
+<!--使用Spring监听器加载含文件解析器的Spring配置文件-->
+<context-param>
+  <param-name>contextConfigLocation</param-name>
+  <param-value>classpath:spring/spring-root.xml</param-value>
+</context-param>
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+
+<!--配置验证码参数 -->
+  <!--<servlet>
+    <servlet-name>Kaptcha</servlet-name>
+    <servlet-class>com.google.code.kaptcha.servlet.KaptchaServlet</servlet-class>
+    &lt;!&ndash;是否有边框&ndash;&gt;
+    <init-param>
+      <param-name>kaptcha.border</param-name>
+      <param-value>no</param-value>
+    </init-param>
+    &lt;!&ndash;字体颜色&ndash;&gt;
+    <init-param>
+      <param-name>kaptcha.textproducer.font.color</param-name>
+      <param-value>red</param-value>
+    </init-param>
+    &lt;!&ndash;图片宽度&ndash;&gt;
+    <init-param>
+      <param-name>kaptcha.image.width</param-name>
+      <param-value>135</param-value>
+    </init-param>
+    &lt;!&ndash;图片高度&ndash;&gt;
+    <init-param>
+      <param-name>kaptcha.image.height</param-name>
+      <param-value>50</param-value>
+    </init-param>
+    &lt;!&ndash;使用哪些字符生成验证码&ndash;&gt;
+    <init-param>
+      <param-name>kaptcha.textproducer.char.string</param-name>
+      <param-value>gytcyvtv2345DRDDESER</param-value>
+    </init-param>
+    &lt;!&ndash;字体大小&ndash;&gt;
+    <init-param>
+      <param-name>kaptcha.textproducer.font.size</param-name>
+      <param-value>43</param-value>
+    </init-param>
+    &lt;!&ndash;干扰线颜色&ndash;&gt;
+    <init-param>
+      <param-name>kaptcha.noise.color</param-name>
+      <param-value>black</param-value>
+    </init-param>
+    &lt;!&ndash;字符个数&ndash;&gt;
+    <init-param>
+      <param-name>kaptcha.textproducer.char.length</param-name>
+      <param-value>4</param-value>
+    </init-param>
+    &lt;!&ndash;字体&ndash;&gt;
+    <init-param>
+      <param-name>kaptcha.textproducer.font.names</param-name>
+      <param-value>Arial</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Kaptcha</servlet-name>
+    <url-pattern>/Kaptcha</url-pattern>
+  </servlet-mapping>-->
+
+<!--使用SpringMVC的前端控制器加载总的总的spring配置文件-->
+
+<servlet>
+  <servlet-name>springmvc</servlet-name>
+  <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  <init-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:spring/spring.xml</param-value>
+  </init-param>
+</servlet>
+  <servlet-mapping>
+    <servlet-name>springmvc</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+
+
+
+<!--处理post文件乱码的过滤器-->
+<filter>
+  <filter-name>CharacterEncodingFilter</filter-name>
+  <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+  <init-param>
+    <param-name>encoding</param-name>
+    <param-value>utf-8</param-value>
+  </init-param>
+</filter>
+<filter-mapping>
+  <filter-name>CharacterEncodingFilter</filter-name>
+  <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+  <filter>
+    <filter-name>multipartFilter</filter-name>
+    <filter-class>org.springframework.web.multipart.support.MultipartFilter</filter-class>
+    <init-param>
+      <param-name>MultipartResolverBeanName</param-name>
+      <param-value>CommonsMultipartResolver</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>multipartFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <!--浏览器form表单只支持GET与POST请求，而DELETE、PUT等method并不支持
+   将含有文件上传项的表单中的put,delete等方法转换为标准的http方法-->
+  <filter>
+    <filter-name>hiddenHttpMethodFilter</filter-name>
+    <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>hiddenHttpMethodFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+</web-app>
